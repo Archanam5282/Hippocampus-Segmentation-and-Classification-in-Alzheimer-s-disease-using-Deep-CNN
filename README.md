@@ -36,11 +36,17 @@ numpy
 nibabel
 
 matplotlib
+
 PIL
+
 pydicom
+
 json
+
 torch (preferably with CUDA)
+
 tensorboard
+
 
 ## Description of the code
 There are 3 codes :
@@ -52,46 +58,76 @@ ipynb file is used to see and understand the code as ipynb is easy to read than 
 The code.py file contains the below functions : 
 
    ### Loading and preprocessing functions:
+   
    mpl_image_grid
+   
    log_to_tensorboard
+   
    save_numpy_as_image
+   
    med_reshape
+   
    LoadHippocampusData
+   
    SlicesDataset
+   
 
    ### Evaluation methods functions
+   
    Dice3d
+   
    Jaccard3d
+   
    sensitivity
 
    ### U-net functions
+   
    UNet
+   
    UnetSkipConnectionBlock
+   
    UNetInferenceAgent
+   
    single_volume_inference_unpadded
+   
    single_volume_inference
+   
    UNetExperiment
    
    ## Training and testing functions
+   
    train
+   
    validate
+   
    save_model_parameters
+   
    load_model_parameters
+   
    run_test
+   
    run
    
    ## Main function 
+   
    Contains code that will kick off training and testing processes
 
 ## How to run the code:
 
 This code can be run in the Anaconda prompt/ Windows cmd
+
 1.Install all the necessary libraries mentioned above
+
 2.Clone this repository and unzip it
+
 3.In your Anaconda prompt, go to the downloaded directory
+
 4.Run the code.py file. The model starts running displaying the epoches and loss values. It take some time to complete.
+
 5.Once the scrolling stops, run the command : tensorboard --logdir runs --bind_all
+
 After the command, Tensorboard writes logs into a folder called runs and you will be able to view results by opening the browser and navigating to default port 6006 of the machine where you are running it. 
+
 See the results_screenshot folder to see the screenshots of the results.
 
 
