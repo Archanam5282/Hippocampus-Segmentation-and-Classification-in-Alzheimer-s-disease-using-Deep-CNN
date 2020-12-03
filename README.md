@@ -22,7 +22,7 @@ scr
   
   scr/lables : contains 2 nifti files (actual dataset has 260 files, needs to be downloaded from the link above before running the code)
   
-  scr/code.py and  scr/code.ipynb
+  scr/02_code.py and  03_scr/code.ipynb
   
   scr/01_hippo_EDA.ipynb : Data Exploratory code which includes the data explorations part of the project
   
@@ -50,8 +50,12 @@ tensorboard
 
 ## Description of the code
 There are 3 codes :
-1) code.py 
-2) code.ipynb 
+
+1) 01_hippo_EDA.ipynb : Data Exploratory code which includes the data explorations part of the project
+
+2) 02_code.py 
+
+3) 03_code.ipynb 
 
 ipynb file is used to see and understand the code as ipynb is easy to read than the py file. So .py file is the file that is used to get the results. Both the files contain same lines of code.
 
