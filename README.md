@@ -15,17 +15,26 @@ Data is acquired from http://medicaldecathlon.com/. This dataset is stored as a 
 ## Folders and files
 scr
   scr/result: json file that has the results of dice, JI and sensitivity
+  
   scr/run: logs files of the Tensorboard (explained in the last section)
+  
   scr/images : contains 2 nifti files (actual dataset has 260 files, needs to be downloaded from the link above before running the code)
+  
   scr/lables : contains 2 nifti files (actual dataset has 260 files, needs to be downloaded from the link above before running the code)
+  
   scr/code.py and  scr/code.ipynb
+  
   scr/01_hippo_EDA.ipynb : Data Exploratory code which includes the data explorations part of the project
+  
 result_screenshots : screenshots of the results from tensorboard and anaconda prompt
 
 ## The Programming Environment:
 You would need a Python 3.7+ environment with the following libraries:
+
 numpy
+
 nibabel
+
 matplotlib
 PIL
 pydicom
