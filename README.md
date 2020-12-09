@@ -128,7 +128,7 @@ This code can be run in the Anaconda prompt/ Windows cmd
 
 3.In your Anaconda prompt, go to the downloaded directory
 
-4.Run the code.py file. The model starts running displaying the epoches and loss values. It take some time to complete.
+4.Run the 02_code.py file. The model starts running displaying the epoches and loss values. It take some time to complete.
 
 5.Once the scrolling stops, run the command : tensorboard --logdir runs --bind_all
 
