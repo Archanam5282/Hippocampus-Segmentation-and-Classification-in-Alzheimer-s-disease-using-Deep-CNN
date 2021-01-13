@@ -100,7 +100,7 @@ The code.py file contains the below functions :
    
    UNetExperiment
    
-   ## Training and testing functions
+   #### Training and testing functions
    
    train
    
@@ -114,7 +114,7 @@ The code.py file contains the below functions :
    
    run
    
-   ## Main function 
+   #### Main function 
    
    Contains code that will kick off training and testing processes
 
