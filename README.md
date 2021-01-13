@@ -63,7 +63,7 @@ ipynb file is used to see and understand the code as ipynb is easy to read than 
 
 The code.py file contains the below functions : 
 
-   ### Loading and preprocessing functions:
+   #### Loading and preprocessing functions:
    
    mpl_image_grid
    
@@ -78,7 +78,7 @@ The code.py file contains the below functions :
    SlicesDataset
    
 
-   ### Evaluation methods functions
+   #### Evaluation methods functions
    
    Dice3d
    
@@ -86,7 +86,7 @@ The code.py file contains the below functions :
    
    sensitivity
 
-   ### U-net functions
+   #### U-net functions
    
    UNet
    
